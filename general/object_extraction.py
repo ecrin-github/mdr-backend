@@ -60,8 +60,6 @@ async def get_via_published_paper(search_type: str, search_value: str, filters: 
         }
 
     elif search_type == "title":
-        if search_value != '' and search_value:
-            search_value.replace("+", " ")
 
         query_body = {
             "from": start_from,
@@ -121,8 +119,6 @@ async def get_all_via_published_paper(search_type: str, search_value: str, filte
         }
 
     elif search_type == "title":
-        if search_value != '' and search_value:
-            search_value.replace("+", " ")
 
         query_body = {
             "size": 10000,
