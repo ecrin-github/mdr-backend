@@ -9,8 +9,8 @@ from general.object_extraction import get_fetched_data_objects
 es = AsyncElasticsearch(hosts=[ELASTICSEARCH_HOST])
 
 router = APIRouter(
-    prefix="/es-query-based",
-    tags=["es-query-based"]
+    prefix="/es-query-based/v1",
+    tags=["es-query-based/v1"]
 )
 
 

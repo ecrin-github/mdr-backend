@@ -10,8 +10,8 @@ from configs.types.identifier_types import IDENTIFIER_TYPES
 
 
 router = APIRouter(
-    prefix="/rest-api",
-    tags=["rest-api"]
+    prefix="/rest-api/v1",
+    tags=["rest-api/v1"]
 )
 
 

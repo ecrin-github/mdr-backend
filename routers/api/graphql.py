@@ -2,6 +2,6 @@ from fastapi import APIRouter
 
 
 router = APIRouter(
-    prefix="/graphql",
-    tags=["graphql"]
+    prefix="/graphql/v1",
+    tags=["graphql/v1"]
 )
